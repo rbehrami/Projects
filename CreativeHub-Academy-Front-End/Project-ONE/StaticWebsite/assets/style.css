@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* TOP NAVBAR*/
+.top-navbar{
+    background-color: #071336;
+}
+.top-navbar-text{
+    font-size: 1.1rem;
+}
+.top-navbar-bold{
+    font-weight: 600;
+}
+.contact-info{
+    font-size: 0.8rem;
+}
+.navbar-paragraph p{
+    margin: 0;
+}
+/* CARD SECTION */
+.card-container{
+    width: 85%;
+    margin-bottom: 5rem;
+    margin-top: 5rem
+}
+.card-title{
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+.card-date{
+    font-size: 1.18rem;
+    font-weight: 400;
+}
+.card-point{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.header-text{
+    position: relative;
+    text-align: center;
+    margin-top: 6rem;
+}
+.course-paragraph{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.course-header{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.signup-btn-button{
+    font-size: 18px;
+    text-decoration: none !important;
+    border: none !important;
+    font-weight: 400;
+    border-radius: 10px !important;
+    padding: 10px 35px !important;
+    background-color: rgb(96, 249, 144);
+}
+.signup-btn-button2{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(60, 237, 119);
+}
+/* SECTION EXPLORE */
+.explore{
+    background-color: #071336;
+}
+.explore-button{
+    text-decoration: none;
+    background-color: rgb(60, 237, 119);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.paragraph-title-explore {
+    font-size: 2.5rem;
+}
+.paragraph-text-explore{
+    font-size: 1.4rem;
+}
+/* SECTION HELP */
+.helpb-title{
+    font-weight: 600;
+}
+.help-paragraph{
+    font-weight: 400;
+}
+.explore-btn{
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 12px 35px;
+    border-radius:8px;
+    background-color: #01FE93;
+}
+.schedule-btn{
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 15px 18px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #01FE93;
+}
+/* FOOTER */
+.footer {
+	background: #071336;
+}
+.second-container{
+    padding-top: 50px;
+}
+.heading{
+    font-weight: 500;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2;
+	font-weight: 200;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+.litext{
+    font-weight: 200;
+
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+.copyright-text{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-column-width{
+    width: 20%;
+}
+.strongf{
+    font-weight: 600 !important;
+}
+
+
+/* SIGNUP MODAL WINDOW */
+.wraper {
+    background-image: url(./images/signup-form.png);
+}
+.right-image img{
+    max-width: 80%;
+    height: auto;
+}
+.input-lg{
+    font-size: 0.8rem;
+}
+.modal-content{
+    border: 2px solid black;
+}
+
+/* Styles for mobile view */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+
+body{
+    width: 100%;
+}
+.header{
+    margin-top: 0px;
+}
+.header-text{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 15px;
+}
+.top-navbar {
+    display: none;
+}
+.mobile-navbar{
+    width: 100%;
+    height: 100%;
+    background-color: #08143b;
+}    
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251, 251, 251, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+.navbarbg {
+    width: 100%;
+    margin: 0;
+}
+.footer-column-width{
+    width: 100%;
+}
+.paragraph-text-explore{
+    font-size: 1.2rem;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: none !important;
+}
+.card-title{
+    font-size: 1.2rem;
+}
+.card-date{
+    font-size: 0.9rem;
+}
+.card-title-h{
+    font-weight: 200;
+}
+.heading-text{
+    font-size: 15px;
+}
+.custom-column{
+    width: 100%;
+    margin-top: 0px;    
+}
+.paragraph-title-explore{
+    font-size: 2rem !important;
+}
+.bottom-line{
+    border-top: 2px solid white;
+}
+.footer {
+	background: #08143b;
+}
+.second-container{
+    margin-top: 150px;
+    padding: 50px;
+}
+.help{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.leftside-image-modal{
+    display: none;
+}
+.modal-padding{
+    padding: 3.5rem !important;
+}
+.modal-content{
+    border: 2px solid black;
+}
+.copyright-text{
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+.divider{
+    border-bottom: 2px solid white;
+}
+}
