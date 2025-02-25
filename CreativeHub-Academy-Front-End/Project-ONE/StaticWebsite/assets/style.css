@@ -12,6 +12,7 @@ body{
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: normal;
+    overflow-x: hidden;
 }
 /* TOP NAVBAR*/
 .top-navbar{
